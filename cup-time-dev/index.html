@@ -9,19 +9,57 @@
 <body>
     <header class="header">
         <div class="container">
-            <a class="header_logo-link">
-                <img src="image/logo.svg" alt="Логотип Cup Time" class="header_logo">
+            <a class="header__logo-link">
+                <img src="image/logo.svg" alt="Логотип Cup Time" class="header__logo">
             </a>
+            
+
+            <nav class="header_nav">
+                <ul class="header_menu">
+                    <li class="header__menu-item"><a class="header__menu-link" hreaf="#">Чай</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" hreaf="#">Кофе</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" hreaf="#">Чайники</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" hreaf="#">Турки</a></li>
+                    <li class="header__menu-item"><a class="header__menu-link" hreaf="#">Прочее</a></li>
+                </ul>
+            </nav>
+
+            <a href="cart.html" class="header__cart-link">6</a>
         </div>
     </header>
 
     <main class="main">
         <section class="promo">
-            <div class="container"></div>
+            <div class="container">
+                <div class="promo__container">
+                    <h1 class="promo__title">Попробуй новый вкус Арабики</h1>
+                    <a href="#" class="promo__link">Перейти к кофе</a>
+                </div>
+            </div>
         </section>
 
         <section class="products">
-            <div class="container"></div>
+            <div class="container">
+                <h2 class="products__title">Чай</h2>
+
+                <ul class="products__list">
+                    <li class="products__item">
+                        <article class="product">
+                            <img src="image/photo-2.jpg" alt="Кокосовая матча" class="product__image">
+                            <h3 class="product__title">Кокосовая матча</h3>
+                            <p class="product__price">390 ₽</p>
+                        </article>
+                    </li>
+
+                    <li class="products__item">
+                        <article class="product">
+                            <img src="image/photo-1.jpg" alt="Зеленый индонезийский чай" class="product__image">
+                            <h3 class="product__title">Зеленый индонезийский чай</h3>
+                            <p class="product__price">340 ₽</p>
+                        </article>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
 
